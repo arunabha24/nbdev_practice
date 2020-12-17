@@ -44,7 +44,7 @@ nb_path: "index.ipynb"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><code>pip install nbdev_practice</code></p>
+<p><code>pip install git+https://github.com/arunabha24/nbdev_practice.git@master</code></p>
 
 </div>
 </div>
@@ -62,7 +62,8 @@ nb_path: "index.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">file_1</span> <span class="o">=</span> <span class="n">FileTextIO</span><span class="p">(</span><span class="s2">&quot;file1.txt&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">modules_practice.core</span> <span class="kn">import</span> <span class="n">FileTextIO</span>
+<span class="n">file_1</span> <span class="o">=</span> <span class="n">FileTextIO</span><span class="p">(</span><span class="s2">&quot;file1.txt&quot;</span><span class="p">)</span>
 <span class="n">file_1</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Writing before reading&quot;</span><span class="p">)</span>
 <span class="n">content</span> <span class="o">=</span> <span class="n">file_1</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
