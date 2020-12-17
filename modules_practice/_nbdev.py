@@ -6,8 +6,8 @@ index = {"FileTextIO": "00_core.ipynb"}
 
 modules = ["core.py"]
 
-doc_url = "https://arunabha.github.io/modules_practice/"
+doc_url = "https://arunabha24.github.io/modules_practice/"
 
-git_url = "https://github.com/arunabha/modules_practice/tree/master/"
+git_url = "https://github.com/arunabha24/nbdev_practice/tree/master/"
 
 def custom_doc_links(name): return None
